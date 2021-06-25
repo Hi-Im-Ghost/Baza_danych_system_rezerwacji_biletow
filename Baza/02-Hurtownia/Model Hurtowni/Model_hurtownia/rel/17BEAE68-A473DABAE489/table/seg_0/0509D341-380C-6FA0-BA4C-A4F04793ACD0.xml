@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0509D341-380C-6FA0-BA4C-A4F04793ACD0" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_RODZAJ_BILETU">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_RODZAJ_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:12 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RODZAJ_BILETU" id="57D4EA1B-5AEA-B56D-671E-6DCF79852A1E">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:12 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="185B27B2-5E1E-B158-6EE3-360EFDE66339">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:12 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RODZAJ_ULGI" id="4085B430-7D04-BC35-A862-57ABFA4A2DD9">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>RODZAJ_ULGI</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:12 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<ownDataTypeParameters>55 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULGA" id="609C494E-8112-E8B9-5014-CC5182F937DB">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>ULGA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:12 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2B7B500-E5D5-FC22-F745-D273BF5A744E" name="H_RODZAJ_BILETU_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_RODZAJ_BILETU_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:12 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D4EA1B-5AEA-B56D-671E-6DCF79852A1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1ACD0E7-3395-EDAE-3281-9FF9C7AD5882" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_RODZAJ_BILETU_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_RODZAJ_BILETU_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:12 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D4EA1B-5AEA-B56D-671E-6DCF79852A1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

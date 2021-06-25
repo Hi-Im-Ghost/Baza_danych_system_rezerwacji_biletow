@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="662E8777-7347-F468-DC68-89237E6BE6EB" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RODZAJ_BILETU">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RODZAJ_BILETU" id="19803619-1E55-6C84-DC12-AD0C20509AC1">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="B8F0848A-3534-9E35-E506-56D2F14AB0FB">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 BYTE</dataTypeSize>
+<ownDataTypeParameters>70 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RODZAJ_ULGI" id="9BB2F20B-A486-5CA8-763A-D02F0525FEDC">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_ULGI</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="806EE0A0-FF17-6A67-324A-C216490A2902" referredColumn="8A9EABF9-2AA6-437A-12F1-D7CEE4A0DED5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1604BDDB-2357-1874-D32F-3557A0FF7D3D" name="B_RODZAJ_BILETU_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_BILETU_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19803619-1E55-6C84-DC12-AD0C20509AC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EE2104A-B0B8-A823-AE8B-01074714E695" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RODZAJ_BILETU_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_BILETU_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19803619-1E55-6C84-DC12-AD0C20509AC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B4781BB-E9C8-7853-DB06-F341BA9693A7" name="B_RODZAJ_BILETU_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BB2F20B-A486-5CA8-763A-D02F0525FEDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

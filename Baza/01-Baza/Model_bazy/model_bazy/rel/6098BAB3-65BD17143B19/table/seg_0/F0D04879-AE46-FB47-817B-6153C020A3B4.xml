@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0D04879-AE46-FB47-817B-6153C020A3B4" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_MIEJSCA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_MIEJSCA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:54 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MIEJSCA" id="844F613E-42AC-8832-9018-985167C11F83">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_MIEJSCA</sourceObjSchema>
+<sourceObjName>ID_MIEJSCA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:54 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RZEDY_FOTELE" id="DF6E0D9D-972F-B65D-F75C-6C449C8D3FB6">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_MIEJSCA</sourceObjSchema>
+<sourceObjName>ID_RZEDY_FOTELE</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:54 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA7EA5C9-1267-62D5-72D4-28CBAFDF6F08" referredColumn="9C75C58F-C94C-6530-175F-CAD146F7B6AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7C52B58-7D4E-01CC-C61E-D5563AFCD579" name="B_MIEJSCA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_MIEJSCA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:54 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="844F613E-42AC-8832-9018-985167C11F83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81EAD1EF-3DC4-79A3-FAB3-FE1247808D37" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_MIEJSCA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_MIEJSCA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:54 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="844F613E-42AC-8832-9018-985167C11F83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E341DFE7-D037-8594-B2B4-CB1C7867B0B7" name="B_MIEJSCA_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:54 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF6E0D9D-972F-B65D-F75C-6C449C8D3FB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

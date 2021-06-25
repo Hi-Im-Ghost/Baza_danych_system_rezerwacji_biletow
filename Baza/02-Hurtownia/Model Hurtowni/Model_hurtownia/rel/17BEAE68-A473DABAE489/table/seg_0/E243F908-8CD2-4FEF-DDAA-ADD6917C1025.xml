@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E243F908-8CD2-4FEF-DDAA-ADD6917C1025" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_WYKONAWCY">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_WYKONAWCY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:56:09 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_WYKONAWCY" id="54DECD3B-2DAD-3BDC-FBAB-A5FCEB88B073">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_WYKONAWCY</sourceObjSchema>
+<sourceObjName>ID_WYKONAWCY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:56:09 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="EAA4D36E-5136-4192-0781-FE6D4335B5D0">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_WYKONAWCY</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:56:09 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE4D593E-59F1-9E81-E357-22937BB10497" name="H_WYKONAWCY_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_WYKONAWCY_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:56:09 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54DECD3B-2DAD-3BDC-FBAB-A5FCEB88B073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C54089D-71FE-7777-EC7E-96114DB7BA02" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_WYKONAWCY_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_WYKONAWCY_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:56:09 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54DECD3B-2DAD-3BDC-FBAB-A5FCEB88B073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

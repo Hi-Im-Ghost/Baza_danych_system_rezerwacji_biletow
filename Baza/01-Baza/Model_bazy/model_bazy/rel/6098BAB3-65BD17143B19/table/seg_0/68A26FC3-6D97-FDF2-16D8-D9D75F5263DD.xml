@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68A26FC3-6D97-FDF2-16D8-D9D75F5263DD" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_OSOBA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_OSOBA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_OSOBY" id="B826D07A-F2B8-AF8B-2504-A841CEAA98B7">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_OSOBA</sourceObjSchema>
+<sourceObjName>ID_OSOBY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMIE" id="B8A5E704-C7B7-3DE9-6E59-E63E14084E3E">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_OSOBA</sourceObjSchema>
+<sourceObjName>IMIE</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="0E424158-8EFB-5B3C-D53D-915F2B7302A7">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_OSOBA</sourceObjSchema>
+<sourceObjName>NAZWISKO</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONU" id="B14B0CAA-69C1-0014-6EC5-359D97E41338">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_OSOBA</sourceObjSchema>
+<sourceObjName>NR_TELEFONU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 BYTE</dataTypeSize>
+<ownDataTypeParameters>18 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0C3F7EC-241C-6855-74A3-2DCCD8A72CCE" name="B_OSOBA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_OSOBA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:16 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B826D07A-F2B8-AF8B-2504-A841CEAA98B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65C7CE5A-6C38-4FCE-3712-71382A0BB6A8" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_OSOBA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_OSOBA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B826D07A-F2B8-AF8B-2504-A841CEAA98B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

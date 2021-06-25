@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA3E5F43-7EE0-0464-D1CF-9CA385F43A00" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_BILET">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_BILET</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:38 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_BILET" id="5386636A-FEB5-A2BC-F2CC-56609D7005FD">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_BILET</sourceObjSchema>
+<sourceObjName>ID_BILET</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:38 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_OSOBY" id="6872A761-3CF0-5AB2-BF94-ECEECB6C179D">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_BILET</sourceObjSchema>
+<sourceObjName>ID_OSOBY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:38 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0076FB21-C8BF-4D1A-9C23-F02BF79B01B0" referredColumn="B826D07A-F2B8-AF8B-2504-A841CEAA98B7"/>
+</associations>
+</Column>
+<Column name="ID_IMPREZA" id="C1628CD4-EEBF-5B48-1B9C-F2C167DBA327">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_BILET</sourceObjSchema>
+<sourceObjName>ID_IMPREZA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:38 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22BC8566-4231-AF60-18BD-F5F3A16B9D00" referredColumn="25BF2579-95B7-08FA-0BB3-8477C844EF4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA3911DA-667E-C487-B0AC-D94239076568" name="BILET_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>BILET_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:38 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5386636A-FEB5-A2BC-F2CC-56609D7005FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2576C45-0CFE-79FE-5490-5815D03AA644" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="BILET_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>BILET_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:38 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5386636A-FEB5-A2BC-F2CC-56609D7005FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E4F6A07-DB9A-BE0A-8A05-3EE66855AFDF" name="B_BILET_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:38 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6872A761-3CF0-5AB2-BF94-ECEECB6C179D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F288429-5EBF-6880-60DE-3644E0852B93" name="B_BILET_FK1">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:38 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1628CD4-EEBF-5B48-1B9C-F2C167DBA327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

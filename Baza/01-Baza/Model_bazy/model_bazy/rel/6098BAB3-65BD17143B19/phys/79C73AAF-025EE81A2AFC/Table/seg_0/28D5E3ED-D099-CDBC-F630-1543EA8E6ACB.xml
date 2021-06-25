@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="B_SPEKTAKL" directorySegmentName="seg_0" id="28D5E3ED-D099-CDBC-F630-1543EA8E6ACB">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D274324-B7F0-C060-783F-11FD974EDA20</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_SPEKTAKL" id="A536FA14-6F36-3A68-08CA-FFB8C03A1644">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CZAS_TRWANIA" id="CF33CC83-07CE-317B-D023-5C70200099E4">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYTUL" id="D13EBC84-C938-AD32-A5AE-BA9E0122CF1C">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_GATUNEK" id="D6FE0301-4113-9C95-EFC5-6034D7F40EC4">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="B_SPEKTAKL_PK" id="ED650DA2-4286-5D33-C4DD-094D7E8D1DF9">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="B_SPEKTAKL_FK0" id="BAD3DD72-4821-9BD8-7AC6-AEEB970660B6">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="B_SPEKTAKL_PK" id="E74423E6-06AE-624D-A750-CA22EBA460D5">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<existingIndex>ED650DA2-4286-5D33-C4DD-094D7E8D1DF9</existingIndex>
+<indexSegment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

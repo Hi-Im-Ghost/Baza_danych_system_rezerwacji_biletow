@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="855AA823-2CC6-7997-C9A2-3F070B025A83" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RZEDY_FOTELE">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RZEDY_FOTELE</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RZEDY_FOTELE" id="9C75C58F-C94C-6530-175F-CAD146F7B6AF">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RZEDY_FOTELE</sourceObjSchema>
+<sourceObjName>ID_RZEDY_FOTELE</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RZAD" id="3D351D81-D254-CA36-9EFE-99E50795A11D">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RZEDY_FOTELE</sourceObjSchema>
+<sourceObjName>ID_RZAD</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BA04E2D-6794-FE01-4C7C-81694A3AC8E1" referredColumn="AC4E6264-AB7D-B39D-1905-D7E156D15DB7"/>
+</associations>
+</Column>
+<Column name="ID_FOTEL" id="4CA6BCDB-B027-0CD3-5A0D-12B6EB744242">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RZEDY_FOTELE</sourceObjSchema>
+<sourceObjName>ID_FOTEL</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FE920E4-B556-2CE9-C90A-7A144309844B" referredColumn="86D6650E-5971-549A-0F55-7C7DF9F31C20"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83D9D06F-22F5-9375-4195-BBFC36B4A7A0" name="B_RZEDY_FOTELE_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RZEDY_FOTELE_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C75C58F-C94C-6530-175F-CAD146F7B6AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F5ED800-43D6-66DE-D7B8-30AFBA16609B" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RZEDY_FOTELE_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RZEDY_FOTELE_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C75C58F-C94C-6530-175F-CAD146F7B6AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="487F1110-B8DF-0A36-A91E-6EFF0A83652F" name="B_RZEDY_FOTELE_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D351D81-D254-CA36-9EFE-99E50795A11D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F402DD3-EB07-BB86-ACA2-1A0676932960" name="B_RZEDY_FOTELE_FK1">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CA6BCDB-B027-0CD3-5A0D-12B6EB744242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

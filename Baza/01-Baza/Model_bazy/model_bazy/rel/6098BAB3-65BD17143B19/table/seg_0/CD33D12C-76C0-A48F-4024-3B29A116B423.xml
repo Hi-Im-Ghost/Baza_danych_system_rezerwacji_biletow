@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD33D12C-76C0-A48F-4024-3B29A116B423" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RODZAJ_ULGI">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_ULGI</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:41 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RODZAJ_ULGI" id="8A9EABF9-2AA6-437A-12F1-D7CEE4A0DED5">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_ULGI</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_ULGI</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:41 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="2CE9F04F-584D-1CBF-681E-AE06D19BDC38">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_ULGI</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:41 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>55 BYTE</dataTypeSize>
+<ownDataTypeParameters>55 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULGA" id="50D23B5F-565E-8178-42B1-CEE7A17E1E33">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_ULGI</sourceObjSchema>
+<sourceObjName>ULGA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:41 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03243E8D-24F1-8D4F-7A30-F80012D6371D" name="B_RODZAJ_ULGI_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_ULGI_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:42 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A9EABF9-2AA6-437A-12F1-D7CEE4A0DED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F086E68C-1FF3-EE19-D5C4-DA3F2755A1BB" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RODZAJ_ULGI_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_ULGI_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:42 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A9EABF9-2AA6-437A-12F1-D7CEE4A0DED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

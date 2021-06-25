@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CC3751F-10A3-8E21-A350-7D57A11ADF4B" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_FOTELE">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_FOTELE</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:47 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FOTEL" id="86D6650E-5971-549A-0F55-7C7DF9F31C20">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_FOTELE</sourceObjSchema>
+<sourceObjName>ID_FOTEL</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:47 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMER" id="5667A289-52DE-6038-BE01-92C489188607">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_FOTELE</sourceObjSchema>
+<sourceObjName>NUMER</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:47 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF2FB118-15C3-45D8-9D1A-A21C2E99BD0D" name="B_FOTELE_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_FOTELE_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:47 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D6650E-5971-549A-0F55-7C7DF9F31C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F3BDC98-B75B-8D4C-C3D1-50CF4BB88ECB" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_FOTELE_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_FOTELE_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:47 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D6650E-5971-549A-0F55-7C7DF9F31C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

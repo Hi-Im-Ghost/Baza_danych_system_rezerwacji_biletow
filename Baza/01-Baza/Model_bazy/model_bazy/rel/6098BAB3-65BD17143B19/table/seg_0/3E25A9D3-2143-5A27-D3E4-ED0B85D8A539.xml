@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E25A9D3-2143-5A27-D3E4-ED0B85D8A539" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_SALA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SALA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:30 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SALA" id="1C32A5C0-D45F-38C6-3CAB-1D8914D762F8">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SALA</sourceObjSchema>
+<sourceObjName>ID_SALA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:30 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMER_SALI" id="FF5CA560-4AA2-3706-1143-EB0F1F789F76">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SALA</sourceObjSchema>
+<sourceObjName>NUMER_SALI</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:30 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ADRES" id="42BB7519-BE76-A810-58A4-05155D111621">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SALA</sourceObjSchema>
+<sourceObjName>ID_ADRES</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:30 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55C0638E-4302-7B86-B734-3EF2F5216524" referredColumn="61FA27D0-7B7B-0DE7-DA83-934255C9D7F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A266E7B7-821A-122C-5642-6B24A1E7E6F5" name="B_SALA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SALA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:30 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C32A5C0-D45F-38C6-3CAB-1D8914D762F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="634F2A6F-32BB-CDD2-0745-6D34D8DD3891" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_SALA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SALA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:30 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C32A5C0-D45F-38C6-3CAB-1D8914D762F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDF59CDB-ABFC-0F05-7C08-8B2559E4BEFC" name="B_SALA_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:30 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BB7519-BE76-A810-58A4-05155D111621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

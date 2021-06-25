@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="B_RZEDY_FOTELE" directorySegmentName="seg_0" id="855AA823-2CC6-7997-C9A2-3F070B025A83">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D274324-B7F0-C060-783F-11FD974EDA20</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_RZAD" id="3D351D81-D254-CA36-9EFE-99E50795A11D">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_FOTEL" id="4CA6BCDB-B027-0CD3-5A0D-12B6EB744242">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RZEDY_FOTELE" id="9C75C58F-C94C-6530-175F-CAD146F7B6AF">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="B_RZEDY_FOTELE_PK" id="3F5ED800-43D6-66DE-D7B8-30AFBA16609B">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="B_RZEDY_FOTELE_FK0" id="487F1110-B8DF-0A36-A91E-6EFF0A83652F">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="B_RZEDY_FOTELE_FK1" id="5F402DD3-EB07-BB86-ACA2-1A0676932960">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="B_RZEDY_FOTELE_PK" id="83D9D06F-22F5-9375-4195-BBFC36B4A7A0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:22:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<existingIndex>3F5ED800-43D6-66DE-D7B8-30AFBA16609B</existingIndex>
+<indexSegment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

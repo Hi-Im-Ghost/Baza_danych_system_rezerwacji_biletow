@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC5C0621-4A94-4293-4863-2D21CA1F7DC8" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_IMPREZA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_IMPREZA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_IMPREZA" id="15D82902-9637-E1AE-847A-17BC2F53454E">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_IMPREZA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RODZAJ_BILETU" id="CA2D2EAF-6C3D-1592-2856-3951250B26A6">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42BFB417-E27D-CCDB-7858-CA47BC472AE8" referredColumn="57D4EA1B-5AEA-B56D-671E-6DCF79852A1E"/>
+</associations>
+</Column>
+<Column name="ID_ADRES" id="33DC6059-4E52-8503-50DE-08BD07209B29">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_ADRES</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9227A1B7-0CBC-C8F8-6EC4-A07FAAB93D49" referredColumn="2055C639-34C8-7315-23C8-5C96604E7B8F"/>
+</associations>
+</Column>
+<Column name="ID_RODZAJ_IMPREZY" id="8A3EE54D-11A7-ECDC-19A8-A13E2C38F422">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_IMPREZY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F1F5C64-6E25-95D8-75D4-FD74D5552992" referredColumn="6B361FF1-4139-C3A7-3C76-966EE91FB23E"/>
+</associations>
+</Column>
+<Column name="ID_WYKONAWCY" id="B3854C03-7703-7CE7-75FD-BC19794063D8">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_WYKONAWCY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2084D285-3D0E-2648-B2D4-107F9B68686E" referredColumn="54DECD3B-2DAD-3BDC-FBAB-A5FCEB88B073"/>
+</associations>
+</Column>
+<Column name="ID_SPEKTAKL" id="2E508D44-573E-9558-93FC-4508478FA9ED">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_SPEKTAKL</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7447AA2-0FAF-B5D1-C05E-0EDEFDAD2F4A" referredColumn="9D902DEB-860D-0AD9-CCB4-EAFE1696FCBE"/>
+</associations>
+</Column>
+<Column name="ID_TRANSPORT" id="D47307F4-9B05-6074-4BE9-E381C8B3AEA6">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_TRANSPORT</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02A9B64B-2EB6-AD27-A31D-1C99A1080478" referredColumn="FF12041C-692B-9730-A799-6500DEBEA688"/>
+</associations>
+</Column>
+<Column name="ID_DATA" id="AFF484F0-A7B3-CDDC-C7FB-9A79A7F66F0F">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_DATA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B78BF21-522B-E7E0-8F34-E4CC681B7AA6" referredColumn="5321EFDE-CC21-3CCF-2A5A-23BD6E7BE942"/>
+</associations>
+</Column>
+<Column name="CENA_BILETU" id="6764B030-92ED-9FBD-068F-99EAFB43CB99">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>CENA_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ILOSC" id="87ADC5C5-C054-0192-1E33-13BF4AF8A829">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_IMPREZA</sourceObjSchema>
+<sourceObjName>ILOSC</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65D5B5D8-143B-4576-BCB8-2A5C85F18292" name="H_IMPREZA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_IMPREZA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:01 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15D82902-9637-E1AE-847A-17BC2F53454E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82FB57B1-2B66-BA43-2566-B8C0F7051A6D" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_IMPREZA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_IMPREZA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:01 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15D82902-9637-E1AE-847A-17BC2F53454E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B31B9AF3-E85E-48C0-4DC3-68136910EB2F" name="H_IMPREZA_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA2D2EAF-6C3D-1592-2856-3951250B26A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49F6614A-F59E-E9E7-C854-B4377A3274BC" name="H_IMPREZA_FK1">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33DC6059-4E52-8503-50DE-08BD07209B29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EFB437D-A6F8-0293-9196-52F6CE3FEF62" name="H_IMPREZA_FK2">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A3EE54D-11A7-ECDC-19A8-A13E2C38F422"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7B0FF93-ACF9-EFC6-495B-963457F17C7E" name="H_IMPREZA_FK3">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3854C03-7703-7CE7-75FD-BC19794063D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B36C2A6C-ECA0-6400-13D9-945358071288" name="H_IMPREZA_FK4">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E508D44-573E-9558-93FC-4508478FA9ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A4EECA4-ED9F-5734-5EDC-949CA70AC33C" name="H_IMPREZA_FK5">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D47307F4-9B05-6074-4BE9-E381C8B3AEA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98433249-14F9-ACA2-747A-F493A7285E28" name="H_IMPREZA_FK6">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFF484F0-A7B3-CDDC-C7FB-9A79A7F66F0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

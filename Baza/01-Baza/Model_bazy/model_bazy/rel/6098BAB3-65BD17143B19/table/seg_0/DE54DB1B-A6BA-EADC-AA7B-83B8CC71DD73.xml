@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE54DB1B-A6BA-EADC-AA7B-83B8CC71DD73" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RZEDY">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RZEDY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:23:00 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RZAD" id="AC4E6264-AB7D-B39D-1905-D7E156D15DB7">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RZEDY</sourceObjSchema>
+<sourceObjName>ID_RZAD</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:23:00 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMER" id="CDAECF72-D991-E8F3-F841-4E1D8E50C5EB">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RZEDY</sourceObjSchema>
+<sourceObjName>NUMER</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:23:00 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0493AB8-FB9E-C46E-3DB6-29A9AEA97DED" name="B_RZEDY_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RZEDY_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:23:00 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC4E6264-AB7D-B39D-1905-D7E156D15DB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45A74901-D86F-5110-DDC8-E499713DA0CF" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RZEDY_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RZEDY_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:23:00 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC4E6264-AB7D-B39D-1905-D7E156D15DB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

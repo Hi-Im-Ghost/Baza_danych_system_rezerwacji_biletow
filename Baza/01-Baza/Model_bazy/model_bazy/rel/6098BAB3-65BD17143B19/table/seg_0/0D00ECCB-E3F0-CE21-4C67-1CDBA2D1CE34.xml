@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D00ECCB-E3F0-CE21-4C67-1CDBA2D1CE34" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_ADRES">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_ADRES</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:09 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ADRES" id="61FA27D0-7B7B-0DE7-DA83-934255C9D7F7">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_ADRES</sourceObjSchema>
+<sourceObjName>ID_ADRES</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:09 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KRAJ" id="6B3B3696-5CE3-4932-4162-3320F4B86D28">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_ADRES</sourceObjSchema>
+<sourceObjName>KRAJ</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:09 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIASTO" id="92737A78-FA34-E318-2884-CBEA7F9DD19F">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_ADRES</sourceObjSchema>
+<sourceObjName>MIASTO</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:09 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULICA" id="F42075AB-EC21-29BF-11FE-05D8E53057BF">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_ADRES</sourceObjSchema>
+<sourceObjName>ULICA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:09 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_BUDYNKU" id="06F9BEB4-66FE-6B06-AD5F-128205445EF1">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_ADRES</sourceObjSchema>
+<sourceObjName>NR_BUDYNKU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:09 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05793EC7-7B2F-5AEC-7429-2466CE230275" name="B_ADRES_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_ADRES_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:09 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61FA27D0-7B7B-0DE7-DA83-934255C9D7F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D7C551D-2BF3-4965-5343-9CD42C06C2AF" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_ADRES_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_ADRES_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:09 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61FA27D0-7B7B-0DE7-DA83-934255C9D7F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

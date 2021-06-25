@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="B_RODZAJ_BILETU" directorySegmentName="seg_0" id="662E8777-7347-F468-DC68-89237E6BE6EB">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D274324-B7F0-C060-783F-11FD974EDA20</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_RODZAJ_BILETU" id="19803619-1E55-6C84-DC12-AD0C20509AC1">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RODZAJ_ULGI" id="9BB2F20B-A486-5CA8-763A-D02F0525FEDC">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWA" id="B8F0848A-3534-9E35-E506-56D2F14AB0FB">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="B_RODZAJ_BILETU_PK" id="1EE2104A-B0B8-A823-AE8B-01074714E695">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="B_RODZAJ_BILETU_FK0" id="7B4781BB-E9C8-7853-DB06-F341BA9693A7">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="B_RODZAJ_BILETU_PK" id="1604BDDB-2357-1874-D32F-3557A0FF7D3D">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:15 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<existingIndex>1EE2104A-B0B8-A823-AE8B-01074714E695</existingIndex>
+<indexSegment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

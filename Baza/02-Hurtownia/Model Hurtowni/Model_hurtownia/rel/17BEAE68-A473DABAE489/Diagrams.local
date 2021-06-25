@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="EC78AF58-C25F-BF06-45AA-5EEAA649F296" name="Model_hurtownia" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

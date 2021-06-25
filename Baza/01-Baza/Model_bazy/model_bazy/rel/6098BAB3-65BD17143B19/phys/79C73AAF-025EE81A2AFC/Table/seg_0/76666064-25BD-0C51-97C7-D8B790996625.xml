@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="B_SALA_MIEJSCA" directorySegmentName="seg_0" id="76666064-25BD-0C51-97C7-D8B790996625">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D274324-B7F0-C060-783F-11FD974EDA20</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_SALA_MIEJSCA" id="1D23A2A0-189F-E29C-7D4F-6C11E3952A1F">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MIEJSCA" id="28762FE5-8241-302F-40D2-AB5D6AC446F3">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SALA" id="633DC622-897C-8A99-B755-ADA40AEE3C41">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="B_SALA_MIEJSCA_PK" id="D7B3FFE4-A6C4-1DBB-BA85-1E61AD400363">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="B_SALA_MIEJSCA_FK1" id="20F37B59-0673-A4AE-B038-FE674136E506">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="B_SALA_MIEJSCA_FK0" id="C761A787-9241-D63F-7E62-0BD21E39748F">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="B_SALA_MIEJSCA_PK" id="E705AE37-032F-6FB6-FDFE-BCA2BE7A7C3E">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<existingIndex>D7B3FFE4-A6C4-1DBB-BA85-1E61AD400363</existingIndex>
+<indexSegment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

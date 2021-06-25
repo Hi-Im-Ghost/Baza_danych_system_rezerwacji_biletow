@@ -1,0 +1,303 @@
+1,1,Airbus A340,126
+2,1,ATR 72,126
+3,1,Boeing 777,182
+4,1,Beechcraft 1300,135
+5,1,Dornier 328,145
+6,1,British Aerospace BAe 146,180
+7,1,Bombardier Dash 8,103
+8,1,Airbus A220,140
+9,1,Bombardier CRJ-900,97
+10,1,Boeing 717,158
+11,1,Cessna 208,170
+12,1,Embraer EMB 121 Xingu,212
+13,1,Airbus A310,97
+14,1,Ilyushin Il-114,139
+15,1,Embraer EMB 120 Brasilia,213
+16,1,Airbus A300,97
+17,1,Boeing 767,142
+18,1,Fokker 50,213
+19,1,Antonov An-140,99
+20,1,Antonov An-148,202
+21,1,Airbus A318,210
+22,1,Cessna 404,123
+23,1,Beechcraft 200 Super King Air,164
+24,1,Convair CV5800,156
+25,1,Embraer/FMA CBA 123 Vector,125
+26,1,Comac C919 (project),132
+27,1,Ilyushin Il-96,105
+28,1,Bombardier CRJ-200,159
+29,1,Boeing 757,170
+30,1,Bombardier CRJ-700,150
+31,1,Antonov An-158,165
+32,1,ATR 42,173
+33,1,Airbus A350,155
+34,1,Boeing 787,119
+35,1,CASA C-212 Aviocar,207
+36,1,Ilyushin Il-86,158
+37,1,de Havilland Canada Dash 7,139
+38,1,Airbus A330,175
+39,1,Embraer EMB 820C,113
+40,1,Airbus A380,189
+41,1,Airbus A321,99
+42,1,Irkut MS-21 (project),171
+43,1,Fokker 70,142
+44,1,De Havilland Canada Dash 8,104
+45,1,Fokker 100,117
+46,1,Airbus A320,146
+47,1,Bombardier CRJ-100,191
+48,1,Indonesian Aerospace N-219,109
+49,1,Airbus A319,129
+50,1,Beriev Be-200,177
+51, 2,RENFE AVE,230
+52, 2,Grand Meadows Tracks,217
+53, 2,Silverstone Tracks,222
+54, 2,Savage Coast Tracks,273
+55, 2,Serenity Tracks,238
+56, 2,Riverfront Route,190
+57, 2,Eastern Route,308
+58, 2,Hollow Rock Line,274
+59, 2,New North Train Line,253
+60, 2,Greenbelt Train Line,272
+61, 2,SHANGHAI MAGLEV,199
+62, 2,Fozen Tundra Main Line,268
+63, 2,Tadpole River Route,286
+64, 2,Soundscape Loop Line,213
+65, 2,Uncanny Valley Tracks,214
+66, 2,VENICE SIMPLON ORIENT EXPRESS,314
+67, 2,GOLDEN EAGLE,288
+68, 2,Lowland Route,276
+69, 2,High Valley Tracks,187
+70, 2,Fogland Line,258
+71, 2,THE ROCKY MOUNTAINEER,180
+72, 2,Surfer Coast Line,230
+73, 2,Tadpole River Rail Line,241
+74, 2,HOKKAIDO RAILWAY TRAIN,301
+75, 2,Wild Ocean Train Line,304
+76, 2,Glacier Forest Line,233
+77, 2,Murky Marsh Line,264
+78, 2,THE GHAN,188
+79, 2,Songbird Tracks,254
+80, 2,ROVOS TRAIL,308
+81, 2,THE ITALO AND FRECCIAROSSA,301
+82, 2,High Mountain Route,228
+83, 2,Boulderland Line,183
+84, 2,Wetlands Speed Line,297
+85, 2,Nightingale Tracks,275
+86, 2,Somerset Line,207
+87, 2,Shark Harbor Tracks,216
+88, 2,Maiden Stone Tracks,288
+89, 2,Savannah Line,212
+90, 2,Flower Gardens Route,293
+91, 2,Coal Belt Rail Line,211
+92, 2,BLUE TRAIN,217
+93, 2,Old Forest Tracks,297
+94, 2,University Tracks,212
+95, 2,Frozen Pinnacle Line,299
+96, 2,Sapphire Coast Tracks,224
+97, 2,Sunny Fields Tracks,215
+98, 2,Ironbark Line,291
+99, 2,North Central Route,203
+100,3,Nissan Space Runner RP,23
+101,3,Volvo 7700,30
+102,3,MERCEDES O818 TEAMSTAR 2006,18
+103,3,Autosan H9,25
+104,3,Solaris Urbino 9,30
+105,3,Eurabus 2.0,32
+106,3,Neoplan K4016TD,27
+107,3,Solaris Interlink,27
+108,3,Wrightbus Pulsar Gemini HEV,29
+109,3,MERCEDES TOURISMO 2013,33
+110,3,Volvo 7900,28
+111,3,MERCEDES TRAVEGO VIP CLASS,28
+112,3,MERCEDES VITO TOURER VIP CLASS,15
+113,3,VW CARAVELLE VIP,27
+114,3,MERCEDES O818 TEAMSTAR 2004,27
+115,3,BYD K9,34
+116,3,Neoplan N4009,15
+117,3,MERCEDES SPRINTER 519 2013,17
+118,3,Autosan H10,20
+119,3,EPV EcoSmart,19
+120,3,Volvo 8700,26
+121,3,Solaris Vacanza 12,26
+122,3,Volvo 9700,19
+123,3,Volvo 8900,16
+124,3,Solaris Urbino 10,32
+125,3,Autosan Eurolider 12,26
+126,3,Wrightbus Pulsar Gemini,23
+127,3,MAN R07,18
+128,3,Solaris Trolilno,31
+129,3,BOVA FUTURA 2007,24
+130,3,Jelcz M125M,32
+131,3,MERCEDES O818 TEAMSTAR 2002,22
+132,3,BOVA FUTURA 2009,18
+133,3,Jelcz PR110D,28
+134,3,Jelcz M11,19
+135,3,MERCEDES VITO VIP,30
+136,3,Nissan Space Runner RA,33
+137,3,Nissan UA,24
+138,3,MERCEDES O818 TEAMSTAR 2005,26
+139,3,Isuzu Turquoise,16
+140,3,MERCEDES SPRINTER 519 2015,27
+141,3,Jelcz L11,23
+142,3,Neoplan K4010TD,33
+143,3,Volvo 9900,34
+144,3,VW T6 CARAVELLE,25
+145,3,Iveco Urbanway 18m,33
+146,3,Solaris Alpino,20
+147,3,NEOPLAN N 1216 HD,18
+148,3,Solaris Valletta,31
+149,3,Volvo Super Olympian,19
+150, 4,Turkey, 58
+151, 4,LM/LVS, 30
+152, 4,TMK 2200, 34
+153, 4,Variotram, 71
+154, 4,B-class Melbourne tram, 31
+155, 4,Combino, 51
+156, 4,Birney, 51
+157, 4,A class Melbourne tram, 54
+158, 4,КТМ [ru], 68
+159, 4,D-class Melbourne tram, 61
+160, 4,Socimi Eurotram, 75
+161, 4,AnsaldoBreda T-69, 72
+162, 4,AKSM, 51
+163, 4,PESA, 29
+164, 4,H type Adelaide tram, 68
+165, 4,Citytram, 49
+166, 4,E-class Melbourne tram, 30
+167, 4,Soviet/Latvian RVR, 71
+168, 4,K-1 (tram) [uk], 43
+169, 4,Bombardier Flexity, 75
+170, 4,California car, 48
+171, 4,Ultra Low Floor, 67
+172, 4,Tatra T3, 74
+173, 4,Dick Kerr Type Tram, 27
+174, 4,TW 6000, 67
+175, 4,DL, 49
+176, 4,Tramway Français Standard, 51
+177, 4,PCC streetcar, 36
+178, 4,Konstal, 46
+179, 4,ATM Class 1500, 30
+180, 4,ATM Class 4600 and 4700, 37
+181, 4,ADtranz low floor tram, 36
+182, 4,Avanto, 60
+183, 4,Z-class Melbourne tram, 74
+184, 4,CAF Urbos, 62
+185, 4,CarGoTram, 54
+186, 4,Škoda ForCity, 56
+187, 4,F-class Melbourne tram, 45
+188, 4,Toronto PCC, 75
+189, 4,Tatra KT4, 66
+190, 4,Bursa, 58
+191, 4,Tramino, 34
+192, 4,Bombardier Incentro, 50
+193, 4,SL95, 39
+194, 4,Sirio, 62
+195, 4,C-class Melbourne tram, 72
+196, 4,MTV, 70
+197, 4,Double-decker tram, 37
+198, 4,Spektr [ru], 60
+199, 4,US Standard Light Rail Vehicle, 63
+200, 4,AnsaldoBreda T-68, 49
+201, 4,Crotram, 41
+202, 4,Gelede Tram Lang [nl], 75
+203, 4,Gothawagen, 35
+204, 5,The Snowdrop,2599
+205, 5,The Tristram,2966
+206, 5,Dundee,1316
+207, 5,Tonbridge Castle,1184
+208, 5,The Esther,1091
+209, 5,Havick,1945
+210, 5,Assistance,2764
+211, 5,The Eastway,2428
+212, 5,Burford,1706
+213, 5,The Felixstowe,2030
+214, 5,The Minstrel,1907
+215, 5,Badger,1014
+216, 5,Blackmorevale,2369
+217, 5,Dartington,720
+218, 5,Burton,999
+219, 5,The Pegwell Bay,2310
+220, 5,Talbot,880
+221, 5,The Earl of Peterborough,1248
+222, 5,Express,2835
+223, 5,The Vetch,2069
+224, 5,Skirmisher,2845
+225, 5,The Arawa,2803
+226, 5,Moselle,1265
+227, 5,Aster,1517
+228, 5,Elias,1967
+229, 5,Mortar,1191
+230, 5,Himalaya,2906
+231, 5,Imogen,2395
+232, 5,The Blackmore Lady,2504
+233, 5,The Polsham,1538
+234, 5,Pigmy,1372
+235, 5,The Vulcan,660
+236, 5,The Jaguar,757
+237, 5,The Caledonia,2001
+238, 5,Prosperous,1161
+239, 5,Sentinel,2912
+240, 5,Fordham,1393
+241, 5,Shalimar,1693
+242, 5,Juno,1736
+243, 5,Godetia,1447
+244, 5,Artifex,1064
+245, 5,The Meleager,2577
+246, 5,Nepean,1731
+247, 5,Greyhond,2811
+248, 5,Wakeful,1934
+249, 5,Monsieur,2150
+250, 5,Bilsthorpe,2215
+251, 5,Gulland,1336
+252, 5,Cordelia,766
+253, 5,Ajdaha,665
+254, 6,Nissan GT-R,3
+255, 6,BMW 7 Series,2
+256, 6,Kia Sorento,3
+257, 6,Mazda CX-3,2
+258, 6,Hyundai i30,2
+259, 6,Volkswagen Passat,3
+260, 6,VW Golf,2
+261, 6,Land Rover Range Rover Sport,3
+262, 6,Honda Civic,2
+263, 6,Ford Kuga,3
+264, 6,Volvo XC40,2
+265, 6,Mercedes-Benz GLA-Class,3
+266, 6,Honda CR-V,2
+267, 6,Porsche Panamera,2
+268, 6,Volvo V40,2
+269, 6,BMW X5,2
+270, 6,VW Passat,3
+271, 6,Audi Q5,3
+272, 6,Ford Fiesta,2
+273, 6,Skoda Fabia,3
+274, 6,Ford Mustang,2
+275, 6,Citroen C4,2
+276, 6,Skoda Citigo,3
+277, 6,BMW X1,2
+278, 6,Mercedes-Benz E-Class,2
+279, 6,Mazda CX-9,2
+280, 6,Honda Pilot,3
+281, 6,Skoda Yeti,2
+282, 6,Ford C-MAX,3
+283, 6,Smart Fortwo,3
+284, 6,Jaguar E-Pace,3
+285, 6,Lexus ES,3
+286, 6,Audi A7,3
+287, 6,Renault Zoe,3
+288, 6,Ford Ka,3
+289, 6,VW up!,3
+290, 6,Kia Stonic,2
+291, 6,Hyundai Sonata,2
+292, 6,Jeep Wrangler,2
+293, 6,Cadillac ATS,3
+294, 6,Vauxhall Corsa,3
+295, 6,Buick Enclave,2
+296, 6,Audi RS4,3
+297, 6,Dodge Caravan,2
+298, 6,Kia Sorento,3
+299, 6,Land Rover Discovery,3
+300, 6,Hyundai Elantra,2
+301, 6,Ford K+,2
+302, 6,Skoda Felicia,2
+303, 6,Subaru Outback,3

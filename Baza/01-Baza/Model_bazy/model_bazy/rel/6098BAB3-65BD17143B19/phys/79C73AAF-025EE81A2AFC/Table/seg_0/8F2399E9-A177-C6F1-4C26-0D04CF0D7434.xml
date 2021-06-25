@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="B_GATUNEK" directorySegmentName="seg_0" id="8F2399E9-A177-C6F1-4C26-0D04CF0D7434">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:51 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D274324-B7F0-C060-783F-11FD974EDA20</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_GATUNEK" id="52F84339-2D30-D546-8009-3B7CD0B7D53C">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:51 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWA" id="C4B3539A-8400-C762-FEBA-335AFD2A8552">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:51 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="B_GATUNEK_PK" id="B98C61B2-685F-E4F7-3DF9-ED7F8F0A4E92">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:51 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="B_GATUNEK_PK" id="53829A4E-CBBE-2903-6DFE-9635B1098571">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:51 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<existingIndex>B98C61B2-685F-E4F7-3DF9-ED7F8F0A4E92</existingIndex>
+<indexSegment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

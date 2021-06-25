@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28D5E3ED-D099-CDBC-F630-1543EA8E6ACB" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_SPEKTAKL">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SPEKTAKL</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SPEKTAKL" id="A536FA14-6F36-3A68-08CA-FFB8C03A1644">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SPEKTAKL</sourceObjSchema>
+<sourceObjName>ID_SPEKTAKL</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYTUL" id="D13EBC84-C938-AD32-A5AE-BA9E0122CF1C">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SPEKTAKL</sourceObjSchema>
+<sourceObjName>TYTUL</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160 BYTE</dataTypeSize>
+<ownDataTypeParameters>160 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CZAS_TRWANIA" id="CF33CC83-07CE-317B-D023-5C70200099E4">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SPEKTAKL</sourceObjSchema>
+<sourceObjName>CZAS_TRWANIA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_GATUNEK" id="D6FE0301-4113-9C95-EFC5-6034D7F40EC4">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SPEKTAKL</sourceObjSchema>
+<sourceObjName>ID_GATUNEK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E0CE17B-E823-C33B-E684-B0BDC80068D0" referredColumn="52F84339-2D30-D546-8009-3B7CD0B7D53C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E74423E6-06AE-624D-A750-CA22EBA460D5" name="B_SPEKTAKL_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SPEKTAKL_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A536FA14-6F36-3A68-08CA-FFB8C03A1644"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED650DA2-4286-5D33-C4DD-094D7E8D1DF9" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_SPEKTAKL_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SPEKTAKL_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A536FA14-6F36-3A68-08CA-FFB8C03A1644"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAD3DD72-4821-9BD8-7AC6-AEEB970660B6" name="B_SPEKTAKL_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:19:29 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6FE0301-4113-9C95-EFC5-6034D7F40EC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A9D8011D-4CDC-0D00-5FAC-E65FB164CC23" mainViewID="D9244462-E59F-4216-FF2D-15E7507424B4">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:54:12 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

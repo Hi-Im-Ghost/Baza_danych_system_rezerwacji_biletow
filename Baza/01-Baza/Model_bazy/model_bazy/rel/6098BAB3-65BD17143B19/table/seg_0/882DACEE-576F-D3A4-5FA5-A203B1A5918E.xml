@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="882DACEE-576F-D3A4-5FA5-A203B1A5918E" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RODZAJ_TRANSPORTU">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_TRANSPORTU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:18:49 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RODZAJ_TRANSPORTU" id="87CDFC08-A08C-A954-AB6F-02B34788680B">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_TRANSPORTU</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_TRANSPORTU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:18:49 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="E96E4CCC-58DD-7C00-1484-A21CA17ECEE2">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_TRANSPORTU</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:18:49 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B45F65D-9273-F9B8-3AE6-2C23AFCD288B" name="B_RODZAJ_TRANSPORTU_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_TRANSPORTU_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:18:49 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87CDFC08-A08C-A954-AB6F-02B34788680B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8084595-50AD-EFAF-B1FF-6D82AF6B3E40" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RODZAJ_TRANSPORTU_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_TRANSPORTU_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:18:49 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87CDFC08-A08C-A954-AB6F-02B34788680B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

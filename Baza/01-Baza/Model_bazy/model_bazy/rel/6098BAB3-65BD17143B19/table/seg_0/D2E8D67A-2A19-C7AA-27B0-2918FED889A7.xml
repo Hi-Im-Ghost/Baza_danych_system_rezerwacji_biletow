@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2E8D67A-2A19-C7AA-27B0-2918FED889A7" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_BILET_RODZAJ_BILETU">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_BILET_RODZAJ_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:58 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_BILET_RODZAJ_BILETU" id="58E199C2-BC35-A890-88A7-8776CD7AB8FA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_BILET_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>ID_BILET_RODZAJ_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:58 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_BILET" id="95699484-D3A4-D05C-6809-6D733FECADA3">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_BILET_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>ID_BILET</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:58 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F524201A-CF26-0724-EDDF-B1A2161B79E5" referredColumn="5386636A-FEB5-A2BC-F2CC-56609D7005FD"/>
+</associations>
+</Column>
+<Column name="ID_RODZAJ_BILETU" id="2532B9FD-6B5B-06C4-A960-EB534E50967E">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_BILET_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:58 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3718B83D-3F0D-7271-0C59-1A3E930E9BC6" referredColumn="19803619-1E55-6C84-DC12-AD0C20509AC1"/>
+</associations>
+</Column>
+<Column name="ILOSC" id="4EDEFD9F-B2F7-A53D-DA57-ADC73E0CDEFB">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_BILET_RODZAJ_BILETU</sourceObjSchema>
+<sourceObjName>ILOSC</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:58 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9E53797-7CC7-B0C1-5A81-268FBC6F6267" name="B_BILET_RODZAJ_BILETU_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_BILET_RODZAJ_BILETU_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58E199C2-BC35-A890-88A7-8776CD7AB8FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A94D0BFC-9377-EA0D-E178-163730DC3AF4" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_BILET_RODZAJ_BILETU_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_BILET_RODZAJ_BILETU_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58E199C2-BC35-A890-88A7-8776CD7AB8FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="905B6B1F-4C00-7E8A-1D22-6D0A59FF1111" name="B_BILET_RODZAJ_BILETU_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95699484-D3A4-D05C-6809-6D733FECADA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="988FA66C-561B-BF08-945E-7ED5D793F2F6" name="B_BILET_RODZAJ_BILETU_FK1">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2532B9FD-6B5B-06C4-A960-EB534E50967E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

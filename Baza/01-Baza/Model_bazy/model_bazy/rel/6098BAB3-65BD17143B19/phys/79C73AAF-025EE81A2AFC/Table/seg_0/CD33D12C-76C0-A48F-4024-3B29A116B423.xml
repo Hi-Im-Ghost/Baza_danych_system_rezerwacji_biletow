@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="B_RODZAJ_ULGI" directorySegmentName="seg_0" id="CD33D12C-76C0-A48F-4024-3B29A116B423">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:41 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D274324-B7F0-C060-783F-11FD974EDA20</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="2CE9F04F-584D-1CBF-681E-AE06D19BDC38">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:41 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ULGA" id="50D23B5F-565E-8178-42B1-CEE7A17E1E33">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:41 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RODZAJ_ULGI" id="8A9EABF9-2AA6-437A-12F1-D7CEE4A0DED5">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:41 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="B_RODZAJ_ULGI_PK" id="F086E68C-1FF3-EE19-D5C4-DA3F2755A1BB">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:42 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="B_RODZAJ_ULGI_PK" id="03243E8D-24F1-8D4F-7A30-F80012D6371D">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:42 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<segment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</segment>
+<tableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</tableSpace>
+<existingIndex>F086E68C-1FF3-EE19-D5C4-DA3F2755A1BB</existingIndex>
+<indexSegment>6B8FB904-1F2E-36E3-B8DB-3EA4EA6FE752</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

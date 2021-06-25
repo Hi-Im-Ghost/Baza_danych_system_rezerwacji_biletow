@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="B_BI_WYKONAWCY_ID_WYKONAWCY" directorySegmentName="seg_0" id="B7DDB1E7-0661-A93B-FCFC-158292F6E7BD">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_BI_WYKONAWCY_ID_WYKONAWCY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:26 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[begin
+  select B_WYKONAWCY_ID_WYKONAWCY_SEQ.nextval into :NEW.id_wykonawcy from dual;
+end;
+
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>64EC2D4F-D23E-B428-6DBB-EE2A4C93D9E0</owner>
+<table>A3B0D019-8A4B-05C7-0128-7922BE91F7F3</table>
+</TriggerOraclev10g>

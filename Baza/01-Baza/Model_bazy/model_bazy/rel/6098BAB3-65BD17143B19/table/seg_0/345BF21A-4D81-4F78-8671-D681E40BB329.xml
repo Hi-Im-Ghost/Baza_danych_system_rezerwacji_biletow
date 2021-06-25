@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="345BF21A-4D81-4F78-8671-D681E40BB329" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_IMPREZA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_IMPREZA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_IMPREZA" id="25BF2579-95B7-08FA-0BB3-8477C844EF4A">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_IMPREZA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ADRES" id="6D9DCEF1-44AE-952A-0EC0-CB68ECD00B61">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_ADRES</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36720D8D-4347-A2B0-3CC6-3EEEA85143C6" referredColumn="61FA27D0-7B7B-0DE7-DA83-934255C9D7F7"/>
+</associations>
+</Column>
+<Column name="ID_RODZAJ_IMPREZY" id="F079BBBA-A041-CB6F-C7B7-BF79A567F702">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_IMPREZY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D1A56BB-16C2-4E20-C025-6398D4E70E98" referredColumn="A2EB20E5-3675-FBDF-8414-C82970A7C964"/>
+</associations>
+</Column>
+<Column name="ID_WYKONAWCY" id="41DE9613-639E-7A31-8F4C-0BED2D585001">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_WYKONAWCY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F793F5D-843E-1FA9-EBCE-A24354C0FAA6" referredColumn="8CD91C4B-79EC-A576-62AD-4CF054B65517"/>
+</associations>
+</Column>
+<Column name="ID_SPEKTAKL" id="E007A584-D7F5-CDF7-EB54-13232284297C">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_SPEKTAKL</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CCC0314-7A91-B765-B5EB-48B51C4D19C6" referredColumn="A536FA14-6F36-3A68-08CA-FFB8C03A1644"/>
+</associations>
+</Column>
+<Column name="ID_TRANSPORT" id="07A8970F-1E7B-09D5-5490-5965884759EA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_IMPREZA</sourceObjSchema>
+<sourceObjName>ID_TRANSPORT</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="060EFD4B-3A36-A350-0EED-6CB62812927D" referredColumn="F0467BC0-D318-7594-A94B-3F6D1C01EE7E"/>
+</associations>
+</Column>
+<Column name="DATA_ROZPOCZECIA" id="1D367F0A-4EC4-E813-E7E1-DDCF45C97DC9">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_IMPREZA</sourceObjSchema>
+<sourceObjName>DATA_ROZPOCZECIA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENA_BILETU" id="D4B9F4F6-6E53-3AD7-65FB-87A7F0265BCC">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_IMPREZA</sourceObjSchema>
+<sourceObjName>CENA_BILETU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D3325F1-9FFE-D4B5-3112-E446764296FD" name="B_IMPREZA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_IMPREZA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:57 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25BF2579-95B7-08FA-0BB3-8477C844EF4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92DC2E04-0842-F94F-41D2-318D1CC7B0BA" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_IMPREZA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_IMPREZA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:56 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25BF2579-95B7-08FA-0BB3-8477C844EF4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FBB1B9A-CF9C-88A5-45D4-756648E69D08" name="B_IMPREZA_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:57 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D9DCEF1-44AE-952A-0EC0-CB68ECD00B61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C777A17-2014-1089-B946-0FD27A098315" name="B_IMPREZA_FK1">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:57 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F079BBBA-A041-CB6F-C7B7-BF79A567F702"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B68052D-CA52-1B50-0EE7-A81ADE0EE990" name="B_IMPREZA_FK2">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:57 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41DE9613-639E-7A31-8F4C-0BED2D585001"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FE5232E-2250-DD9F-887A-4C4C4DC9DFB0" name="B_IMPREZA_FK3">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:57 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E007A584-D7F5-CDF7-EB54-13232284297C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C13FAE2C-8E9C-0EC5-D961-AB3EF148D6D6" name="B_IMPREZA_FK4">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:16:57 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07A8970F-1E7B-09D5-5490-5965884759EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

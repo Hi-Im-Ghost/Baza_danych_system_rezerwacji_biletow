@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE8C520A-5990-552D-E481-754B61C59551" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_TRANSPORT">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_TRANSPORT</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:07 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRANSPORT" id="F0467BC0-D318-7594-A94B-3F6D1C01EE7E">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_TRANSPORT</sourceObjSchema>
+<sourceObjName>ID_TRANSPORT</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:07 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RODZAJ_TRANSPORTU" id="4AC7B091-C05C-3285-7CCB-BF2278F1EE33">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_TRANSPORT</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_TRANSPORTU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:07 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12C97DB7-91BE-BEB4-7AD7-CB881E5926E0" referredColumn="87CDFC08-A08C-A954-AB6F-02B34788680B"/>
+</associations>
+</Column>
+<Column name="NAZWA" id="65395781-98A6-D998-3FB1-57258FE4DCEC">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_TRANSPORT</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:07 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ILOSC_MIEJSC" id="D6C4A763-18A5-FBB8-924F-8F5EF1C3AE62">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_TRANSPORT</sourceObjSchema>
+<sourceObjName>ILOSC_MIEJSC</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:07 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74B7DC20-CC77-CF58-4A2F-CC06555BA8E4" name="B_TRANSPORT_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_TRANSPORT_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:07 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0467BC0-D318-7594-A94B-3F6D1C01EE7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="957F5BF4-9E0D-930A-1E32-BF57E3DCDA4A" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_TRANSPORT_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_TRANSPORT_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:07 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0467BC0-D318-7594-A94B-3F6D1C01EE7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD4840D0-5AA0-5888-4910-61CF2C9013BF" name="B_TRANSPORT_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:20:07 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AC7B091-C05C-3285-7CCB-BF2278F1EE33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB9E7F25-4CFC-7356-B0C2-AFF539239FAE" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_TRANSPORT">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_TRANSPORT</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:56 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRANSPORT" id="FF12041C-692B-9730-A799-6500DEBEA688">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_TRANSPORT</sourceObjSchema>
+<sourceObjName>ID_TRANSPORT</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:56 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RODZAJ_TRANSPORTU" id="7A124554-761F-F176-CF5C-6365382026A0">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_TRANSPORT</sourceObjSchema>
+<sourceObjName>RODZAJ_TRANSPORTU</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:56 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="4F27BBA1-2F6E-26C1-466E-54EC61D7D26B">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_TRANSPORT</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:56 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ILOSC_MIEJSC" id="7A0B20A7-CFB0-3D26-3E6B-725B86512F40">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_TRANSPORT</sourceObjSchema>
+<sourceObjName>ILOSC_MIEJSC</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:56 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38F0530E-1FA3-6503-7382-534818D1697E" name="H_TRANSPORT_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_TRANSPORT_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:56 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF12041C-692B-9730-A799-6500DEBEA688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B08D05F-862D-5885-3DC7-D0072B6BFE9E" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_TRANSPORT_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_TRANSPORT_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:56 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF12041C-692B-9730-A799-6500DEBEA688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

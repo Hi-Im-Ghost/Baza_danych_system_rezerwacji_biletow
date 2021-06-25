@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Model_hurtownia" id="17BEAE68-FBEF-9643-369E-A473DABAE489" mainViewID="EC78AF58-C25F-BF06-45AA-5EEAA649F296">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:54:17 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>PROJEKT</connName>
+<connUser>STUDENT_LAB</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

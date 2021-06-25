@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76666064-25BD-0C51-97C7-D8B790996625" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_SALA_MIEJSCA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SALA_MIEJSCA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SALA_MIEJSCA" id="1D23A2A0-189F-E29C-7D4F-6C11E3952A1F">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SALA_MIEJSCA</sourceObjSchema>
+<sourceObjName>ID_SALA_MIEJSCA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SALA" id="633DC622-897C-8A99-B755-ADA40AEE3C41">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SALA_MIEJSCA</sourceObjSchema>
+<sourceObjName>ID_SALA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E480884-45C1-2254-4B37-DD8323563F63" referredColumn="1C32A5C0-D45F-38C6-3CAB-1D8914D762F8"/>
+</associations>
+</Column>
+<Column name="ID_MIEJSCA" id="28762FE5-8241-302F-40D2-AB5D6AC446F3">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_SALA_MIEJSCA</sourceObjSchema>
+<sourceObjName>ID_MIEJSCA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8100C300-9F39-3DB9-97FB-D72F04091DD9" referredColumn="844F613E-42AC-8832-9018-985167C11F83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E705AE37-032F-6FB6-FDFE-BCA2BE7A7C3E" name="B_SALA_MIEJSCA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SALA_MIEJSCA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D23A2A0-189F-E29C-7D4F-6C11E3952A1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7B3FFE4-A6C4-1DBB-BA85-1E61AD400363" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_SALA_MIEJSCA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_SALA_MIEJSCA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D23A2A0-189F-E29C-7D4F-6C11E3952A1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C761A787-9241-D63F-7E62-0BD21E39748F" name="B_SALA_MIEJSCA_FK0">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="633DC622-897C-8A99-B755-ADA40AEE3C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20F37B59-0673-A4AE-B038-FE674136E506" name="B_SALA_MIEJSCA_FK1">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:21:40 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28762FE5-8241-302F-40D2-AB5D6AC446F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

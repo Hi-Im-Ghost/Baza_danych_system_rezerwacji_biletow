@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="STUDENT_LAB" directorySegmentName="seg_0" id="64EC2D4F-D23E-B428-6DBB-EE2A4C93D9E0">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjName>STUDENT_LAB</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:14 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<schemaObject>D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389</schemaObject>
+<defTableSpace>ADE4D93E-D191-F83A-C951-11CC9D450593</defTableSpace>
+<privileges>CREATE TABLE, CREATE TYPE, CREATE PROCEDURE, UNLIMITED TABLESPACE, CREATE SESSION, CREATE VIEW, CREATE PUBLIC SYNONYM, CREATE TRIGGER, ALTER USER, CREATE DATABASE LINK, CREATE SYNONYM, ALTER SESSION, CREATE MATERIALIZED VIEW, CREATE SEQUENCE, CREATE ROLE, CREATE ANY INDEX</privileges>
+</UserOraclev10g>

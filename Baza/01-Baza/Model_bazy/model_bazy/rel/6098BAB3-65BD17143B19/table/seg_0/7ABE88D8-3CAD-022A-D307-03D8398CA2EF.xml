@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ABE88D8-3CAD-022A-D307-03D8398CA2EF" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RODZAJ_IMPREZY">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_IMPREZY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:17:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RODZAJ_IMPREZY" id="A2EB20E5-3675-FBDF-8414-C82970A7C964">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_IMPREZY</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_IMPREZY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:17:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="325ADFE9-C52C-4169-FB0D-65E14A55DBF1">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>B_RODZAJ_IMPREZY</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:17:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9489B0A-02A2-DCC2-B1CE-7E589FB93917" name="B_RODZAJ_IMPREZY_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_IMPREZY_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:17:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2EB20E5-3675-FBDF-8414-C82970A7C964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01936FCA-4F6B-46B1-4DD5-F273801E0232" schemaObject="D62EEDC4-7F90-CD98-0A9A-C9E5B1B22389" name="B_RODZAJ_IMPREZY_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_RODZAJ_IMPREZY_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:17:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2EB20E5-3675-FBDF-8414-C82970A7C964"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

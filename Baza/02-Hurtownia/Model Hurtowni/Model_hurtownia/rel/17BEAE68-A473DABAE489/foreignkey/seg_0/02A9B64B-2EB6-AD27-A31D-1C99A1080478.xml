@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02A9B64B-2EB6-AD27-A31D-1C99A1080478" containerWithKeyObject="BC5C0621-4A94-4293-4863-2D21CA1F7DC8" localFKIndex="3A4EECA4-ED9F-5734-5EDC-949CA70AC33C" name="H_IMPREZA_FK5">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_IMPREZA_FK5</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<referredTableLongName>STUDENT_LAB.H_TRANSPORT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB9E7F25-4CFC-7356-B0C2-AFF539239FAE</referredTableID>
+<keyObject>38F0530E-1FA3-6503-7382-534818D1697E</keyObject>
+<referredKeyID>38F0530E-1FA3-6503-7382-534818D1697E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_TRANSPORT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

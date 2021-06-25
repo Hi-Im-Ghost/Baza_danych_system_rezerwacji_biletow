@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3718B83D-3F0D-7271-0C59-1A3E930E9BC6" containerWithKeyObject="D2E8D67A-2A19-C7AA-27B0-2918FED889A7" localFKIndex="988FA66C-561B-BF08-945E-7ED5D793F2F6" name="B_BILET_RODZAJ_BILETU_FK1">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>B_BILET_RODZAJ_BILETU_FK1</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-08 17:15:59 UTC</createdTime>
+<ownerDesignName>model_bazy</ownerDesignName>
+<referredTableLongName>STUDENT_LAB.B_RODZAJ_BILETU</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>662E8777-7347-F468-DC68-89237E6BE6EB</referredTableID>
+<keyObject>1604BDDB-2357-1874-D32F-3557A0FF7D3D</keyObject>
+<referredKeyID>1604BDDB-2357-1874-D32F-3557A0FF7D3D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RODZAJ_BILETU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

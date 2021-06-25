@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="H_BI_RODZAJ_IMPREZY_ID_RODZAJ_IMPREZY" directorySegmentName="seg_0" id="10092B80-C1C0-B717-1F57-4D2C8EB31753">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_BI_RODZAJ_IMPREZY_ID_RODZAJ_IMPREZY</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:34 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[begin
+  select H_RODZAJ_IMPREZY_ID_RODZAJ_IMPREZY_SEQ.nextval into :NEW.id_rodzaj_imprezy from dual;
+end;
+
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>F5DAD986-93EA-88B0-5CC5-BB7C4F6FBDC9</owner>
+<table>47DE284A-4310-7D38-988A-9CE5EFD344A9</table>
+</TriggerOraclev10g>

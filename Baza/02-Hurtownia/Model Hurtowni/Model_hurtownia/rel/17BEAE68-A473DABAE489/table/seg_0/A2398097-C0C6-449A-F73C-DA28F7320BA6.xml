@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2398097-C0C6-449A-F73C-DA28F7320BA6" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_DATA">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_DATA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:54:53 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DATA" id="5321EFDE-CC21-3CCF-2A5A-23BD6E7BE942">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_DATA</sourceObjSchema>
+<sourceObjName>ID_DATA</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:54:53 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIESIAC" id="15EB9F10-8D7C-833B-400F-3C0EFA4625EC">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_DATA</sourceObjSchema>
+<sourceObjName>MIESIAC</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:54:53 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROK" id="8DA82555-1166-63FD-1058-1034D78CE698">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>H_DATA</sourceObjSchema>
+<sourceObjName>ROK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:54:53 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C349FBD1-80C3-F9C6-C437-BF17F664EDBC" name="H_DATA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_DATA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:54:53 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5321EFDE-CC21-3CCF-2A5A-23BD6E7BE942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF59105D-C55F-C898-294F-4EB8BCD25AB6" schemaObject="FAD13678-F010-8E0B-825D-97816FC82B01" name="H_DATA_PK">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_DATA_PK</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:54:53 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5321EFDE-CC21-3CCF-2A5A-23BD6E7BE942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

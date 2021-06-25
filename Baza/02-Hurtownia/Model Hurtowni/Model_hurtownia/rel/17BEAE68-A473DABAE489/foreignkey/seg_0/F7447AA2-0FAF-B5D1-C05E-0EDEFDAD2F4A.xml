@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7447AA2-0FAF-B5D1-C05E-0EDEFDAD2F4A" containerWithKeyObject="BC5C0621-4A94-4293-4863-2D21CA1F7DC8" localFKIndex="B36C2A6C-ECA0-6400-13D9-945358071288" name="H_IMPREZA_FK4">
+<sourceConnName>PROJEKT</sourceConnName>
+<sourceObjSchema>STUDENT_LAB</sourceObjSchema>
+<sourceObjName>H_IMPREZA_FK4</sourceObjName>
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<referredTableLongName>STUDENT_LAB.H_SPEKTAKL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0F85B30A-A422-20BF-A3F4-15367E30FE2C</referredTableID>
+<keyObject>F7D6DBF6-2E0C-BFB6-7974-6E60BA096C03</keyObject>
+<referredKeyID>F7D6DBF6-2E0C-BFB6-7974-6E60BA096C03</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_SPEKTAKL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

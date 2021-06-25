@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="H_IMPREZA" directorySegmentName="seg_0" id="BC5C0621-4A94-4293-4863-2D21CA1F7DC8">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<schemaObject>FAD13678-F010-8E0B-825D-97816FC82B01</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>25AC6CF1-CE81-4562-E298-6FF8C62FA46A</segment>
+<tableSpace>B3E3EF33-19AC-58B4-6196-2B8894894C4B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_IMPREZA" id="15D82902-9637-E1AE-847A-17BC2F53454E">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SPEKTAKL" id="2E508D44-573E-9558-93FC-4508478FA9ED">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ADRES" id="33DC6059-4E52-8503-50DE-08BD07209B29">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CENA_BILETU" id="6764B030-92ED-9FBD-068F-99EAFB43CB99">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ILOSC" id="87ADC5C5-C054-0192-1E33-13BF4AF8A829">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RODZAJ_IMPREZY" id="8A3EE54D-11A7-ECDC-19A8-A13E2C38F422">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DATA" id="AFF484F0-A7B3-CDDC-C7FB-9A79A7F66F0F">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_WYKONAWCY" id="B3854C03-7703-7CE7-75FD-BC19794063D8">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RODZAJ_BILETU" id="CA2D2EAF-6C3D-1592-2856-3951250B26A6">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TRANSPORT" id="D47307F4-9B05-6074-4BE9-E381C8B3AEA6">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:00 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="H_IMPREZA_PK" id="82FB57B1-2B66-BA43-2566-B8C0F7051A6D">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:01 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<schemaObject>FAD13678-F010-8E0B-825D-97816FC82B01</schemaObject>
+<segment>0C9EEC9D-58FC-4298-A4D7-410831E471D4</segment>
+<tableSpace>B3E3EF33-19AC-58B4-6196-2B8894894C4B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="H_IMPREZA_FK2" id="2EFB437D-A6F8-0293-9196-52F6CE3FEF62">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="H_IMPREZA_FK5" id="3A4EECA4-ED9F-5734-5EDC-949CA70AC33C">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="H_IMPREZA_FK1" id="49F6614A-F59E-E9E7-C854-B4377A3274BC">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="H_IMPREZA_FK6" id="98433249-14F9-ACA2-747A-F493A7285E28">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="H_IMPREZA_FK0" id="B31B9AF3-E85E-48C0-4DC3-68136910EB2F">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="H_IMPREZA_FK4" id="B36C2A6C-ECA0-6400-13D9-945358071288">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="H_IMPREZA_FK3" id="B7B0FF93-ACF9-EFC6-495B-963457F17C7E">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:02 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="H_IMPREZA_PK" id="65D5B5D8-143B-4576-BCB8-2A5C85F18292">
+<createdBy>Ghost</createdBy>
+<createdTime>2021-06-09 08:55:01 UTC</createdTime>
+<ownerDesignName>Model_hurtownia</ownerDesignName>
+<segment>0C9EEC9D-58FC-4298-A4D7-410831E471D4</segment>
+<tableSpace>B3E3EF33-19AC-58B4-6196-2B8894894C4B</tableSpace>
+<existingIndex>82FB57B1-2B66-BA43-2566-B8C0F7051A6D</existingIndex>
+<indexSegment>0C9EEC9D-58FC-4298-A4D7-410831E471D4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
